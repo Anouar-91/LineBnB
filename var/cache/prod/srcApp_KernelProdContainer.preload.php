@@ -10,7 +10,7 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
 }
 
 require dirname(__DIR__, 3).'/vendor/autoload.php';
-require __DIR__.'/ContainerEvwRO3R/srcApp_KernelProdContainer.php';
+require __DIR__.'/ContainerHU0eWHO/srcApp_KernelProdContainer.php';
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
@@ -57,6 +57,8 @@ $classes[] = 'App\Repository\PasswordUpdateRepository';
 $classes[] = 'App\Repository\RoleRepository';
 $classes[] = 'App\Repository\UserRepository';
 $classes[] = 'App\Security\LoginFromAuthenticator';
+$classes[] = 'Doctrine\Bundle\DoctrineBundle\Dbal\ManagerRegistryAwareConnectionProvider';
+$classes[] = 'Doctrine\Bundle\DoctrineBundle\Registry';
 $classes[] = 'Doctrine\DBAL\Tools\Console\Command\RunSqlCommand';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Controller\RedirectController';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Controller\TemplateController';
@@ -132,7 +134,6 @@ $classes[] = 'Symfony\Component\DependencyInjection\EnvVarProcessor';
 $classes[] = 'Symfony\Component\HttpKernel\EventListener\DebugHandlersListener';
 $classes[] = 'Symfony\Component\HttpKernel\Debug\FileLinkFormatter';
 $classes[] = 'Symfony\Component\Stopwatch\Stopwatch';
-$classes[] = 'Doctrine\Bundle\DoctrineBundle\Registry';
 $classes[] = 'Doctrine\Bundle\DoctrineBundle\Command\Proxy\ClearMetadataCacheDoctrineCommand';
 $classes[] = 'Doctrine\Bundle\DoctrineBundle\Command\Proxy\ClearQueryCacheDoctrineCommand';
 $classes[] = 'Doctrine\Bundle\DoctrineBundle\Command\Proxy\ClearResultCacheDoctrineCommand';

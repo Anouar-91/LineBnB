@@ -20,9 +20,9 @@
       <parameter key="DoctrineMigrationsBundle">Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle</parameter>
       <parameter key="SecurityBundle">Symfony\Bundle\SecurityBundle\SecurityBundle</parameter>
       <parameter key="TwigExtraBundle">Twig\Extra\TwigExtraBundle\TwigExtraBundle</parameter>
-      <parameter key="WebServerBundle">Symfony\Bundle\WebServerBundle\WebServerBundle</parameter>
       <parameter key="DoctrineFixturesBundle">Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle</parameter>
       <parameter key="WebpackEncoreBundle">Symfony\WebpackEncoreBundle\WebpackEncoreBundle</parameter>
+      <parameter key="WebServerBundle">Symfony\Bundle\WebServerBundle\WebServerBundle</parameter>
     </parameter>
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
@@ -66,12 +66,8 @@
         <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
       </parameter>
       <parameter key="TwigExtraBundle" type="collection">
-        <parameter key="path">/Applications/MAMP/htdocs/lineup/vendor/twig/extra-bundle/src</parameter>
+        <parameter key="path">/Applications/MAMP/htdocs/lineup/vendor/twig/extra-bundle</parameter>
         <parameter key="namespace">Twig\Extra\TwigExtraBundle</parameter>
-      </parameter>
-      <parameter key="WebServerBundle" type="collection">
-        <parameter key="path">/Applications/MAMP/htdocs/lineup/vendor/symfony/web-server-bundle</parameter>
-        <parameter key="namespace">Symfony\Bundle\WebServerBundle</parameter>
       </parameter>
       <parameter key="DoctrineFixturesBundle" type="collection">
         <parameter key="path">/Applications/MAMP/htdocs/lineup/vendor/doctrine/doctrine-fixtures-bundle</parameter>
@@ -80,6 +76,10 @@
       <parameter key="WebpackEncoreBundle" type="collection">
         <parameter key="path">/Applications/MAMP/htdocs/lineup/vendor/symfony/webpack-encore-bundle/src</parameter>
         <parameter key="namespace">Symfony\WebpackEncoreBundle</parameter>
+      </parameter>
+      <parameter key="WebServerBundle" type="collection">
+        <parameter key="path">/Applications/MAMP/htdocs/lineup/vendor/symfony/web-server-bundle</parameter>
+        <parameter key="namespace">Symfony\Bundle\WebServerBundle</parameter>
       </parameter>
     </parameter>
     <parameter key="kernel.charset">UTF-8</parameter>
@@ -1577,265 +1577,265 @@
         <argument key="debug">true</argument>
         <argument key="resource_files" type="collection">
           <argument key="af" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.af.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.af.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.af.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.af.xlf</argument>
           </argument>
           <argument key="ar" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.ar.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.ar.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.ar.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.ar.xlf</argument>
           </argument>
           <argument key="az" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.az.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.az.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.az.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.az.xlf</argument>
           </argument>
           <argument key="be" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.be.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.be.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.be.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.be.xlf</argument>
           </argument>
           <argument key="bg" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.bg.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.bg.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.bg.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.bg.xlf</argument>
           </argument>
           <argument key="bs" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.bs.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.bs.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.bs.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.bs.xlf</argument>
           </argument>
           <argument key="ca" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.ca.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.ca.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.ca.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.ca.xlf</argument>
           </argument>
           <argument key="cs" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.cs.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.cs.xlf</argument>
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.cs.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.cs.xlf</argument>
+          </argument>
+          <argument key="da" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.da.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.da.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.da.xlf</argument>
+          </argument>
+          <argument key="de" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.de.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.de.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.de.xlf</argument>
+          </argument>
+          <argument key="el" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.el.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.el.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.el.xlf</argument>
+          </argument>
+          <argument key="en" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.en.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.en.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.en.xlf</argument>
+          </argument>
+          <argument key="es" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.es.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.es.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.es.xlf</argument>
+          </argument>
+          <argument key="et" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.et.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.et.xlf</argument>
+          </argument>
+          <argument key="eu" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.eu.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.eu.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.eu.xlf</argument>
+          </argument>
+          <argument key="fa" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.fa.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.fa.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.fa.xlf</argument>
+          </argument>
+          <argument key="fi" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.fi.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.fi.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.fi.xlf</argument>
+          </argument>
+          <argument key="fr" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.fr.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.fr.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.fr.xlf</argument>
+          </argument>
+          <argument key="gl" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.gl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.gl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.gl.xlf</argument>
+          </argument>
+          <argument key="he" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.he.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.he.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.he.xlf</argument>
+          </argument>
+          <argument key="hr" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.hr.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.hr.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.hr.xlf</argument>
+          </argument>
+          <argument key="hu" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.hu.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.hu.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.hu.xlf</argument>
+          </argument>
+          <argument key="hy" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.hy.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.hy.xlf</argument>
+          </argument>
+          <argument key="id" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.id.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.id.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.id.xlf</argument>
+          </argument>
+          <argument key="it" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.it.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.it.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.it.xlf</argument>
+          </argument>
+          <argument key="ja" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.ja.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.ja.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.ja.xlf</argument>
+          </argument>
+          <argument key="lb" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.lb.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.lb.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.lb.xlf</argument>
+          </argument>
+          <argument key="lt" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.lt.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.lt.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.lt.xlf</argument>
+          </argument>
+          <argument key="lv" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.lv.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.lv.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.lv.xlf</argument>
+          </argument>
+          <argument key="mn" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.mn.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.mn.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.mn.xlf</argument>
+          </argument>
+          <argument key="nb" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.nb.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.nb.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.nb.xlf</argument>
+          </argument>
+          <argument key="nl" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.nl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.nl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.nl.xlf</argument>
+          </argument>
+          <argument key="nn" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.nn.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.nn.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.nn.xlf</argument>
+          </argument>
+          <argument key="no" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.no.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.no.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.no.xlf</argument>
+          </argument>
+          <argument key="pl" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.pl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.pl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.pl.xlf</argument>
+          </argument>
+          <argument key="pt" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.pt.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.pt.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.pt.xlf</argument>
+          </argument>
+          <argument key="pt_BR" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.pt_BR.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.pt_BR.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.pt_BR.xlf</argument>
+          </argument>
+          <argument key="ro" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.ro.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.ro.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.ro.xlf</argument>
+          </argument>
+          <argument key="ru" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.ru.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.ru.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.ru.xlf</argument>
+          </argument>
+          <argument key="sk" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sk.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sk.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sk.xlf</argument>
+          </argument>
+          <argument key="sl" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sl.xlf</argument>
+          </argument>
+          <argument key="sq" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sq.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sq.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sq.xlf</argument>
+          </argument>
+          <argument key="sr_Cyrl" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sr_Cyrl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sr_Cyrl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sr_Cyrl.xlf</argument>
+          </argument>
+          <argument key="sr_Latn" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sr_Latn.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sr_Latn.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sr_Latn.xlf</argument>
+          </argument>
+          <argument key="sv" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sv.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sv.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sv.xlf</argument>
+          </argument>
+          <argument key="th" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.th.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.th.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.th.xlf</argument>
+          </argument>
+          <argument key="tl" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.tl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.tl.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.tl.xlf</argument>
+          </argument>
+          <argument key="tr" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.tr.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.tr.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.tr.xlf</argument>
+          </argument>
+          <argument key="uk" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.uk.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.uk.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.uk.xlf</argument>
+          </argument>
+          <argument key="vi" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.vi.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.vi.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.vi.xlf</argument>
+          </argument>
+          <argument key="zh_CN" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.zh_CN.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.zh_CN.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.zh_CN.xlf</argument>
+          </argument>
+          <argument key="zh_TW" type="collection">
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.zh_TW.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.zh_TW.xlf</argument>
+            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.zh_TW.xlf</argument>
           </argument>
           <argument key="cy" type="collection">
             <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.cy.xlf</argument>
-          </argument>
-          <argument key="da" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.da.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.da.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.da.xlf</argument>
-          </argument>
-          <argument key="de" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.de.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.de.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.de.xlf</argument>
-          </argument>
-          <argument key="el" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.el.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.el.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.el.xlf</argument>
-          </argument>
-          <argument key="en" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.en.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.en.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.en.xlf</argument>
-          </argument>
-          <argument key="es" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.es.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.es.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.es.xlf</argument>
-          </argument>
-          <argument key="et" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.et.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.et.xlf</argument>
-          </argument>
-          <argument key="eu" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.eu.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.eu.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.eu.xlf</argument>
-          </argument>
-          <argument key="fa" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.fa.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.fa.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.fa.xlf</argument>
-          </argument>
-          <argument key="fi" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.fi.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.fi.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.fi.xlf</argument>
-          </argument>
-          <argument key="fr" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.fr.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.fr.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.fr.xlf</argument>
-          </argument>
-          <argument key="gl" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.gl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.gl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.gl.xlf</argument>
-          </argument>
-          <argument key="he" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.he.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.he.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.he.xlf</argument>
-          </argument>
-          <argument key="hr" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.hr.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.hr.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.hr.xlf</argument>
-          </argument>
-          <argument key="hu" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.hu.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.hu.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.hu.xlf</argument>
-          </argument>
-          <argument key="hy" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.hy.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.hy.xlf</argument>
-          </argument>
-          <argument key="id" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.id.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.id.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.id.xlf</argument>
-          </argument>
-          <argument key="it" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.it.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.it.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.it.xlf</argument>
-          </argument>
-          <argument key="ja" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.ja.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.ja.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.ja.xlf</argument>
-          </argument>
-          <argument key="lb" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.lb.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.lb.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.lb.xlf</argument>
-          </argument>
-          <argument key="lt" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.lt.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.lt.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.lt.xlf</argument>
-          </argument>
-          <argument key="lv" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.lv.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.lv.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.lv.xlf</argument>
-          </argument>
-          <argument key="mn" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.mn.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.mn.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.mn.xlf</argument>
-          </argument>
-          <argument key="nb" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.nb.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.nb.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.nb.xlf</argument>
-          </argument>
-          <argument key="nl" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.nl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.nl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.nl.xlf</argument>
-          </argument>
-          <argument key="nn" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.nn.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.nn.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.nn.xlf</argument>
-          </argument>
-          <argument key="no" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.no.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.no.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.no.xlf</argument>
-          </argument>
-          <argument key="pl" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.pl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.pl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.pl.xlf</argument>
-          </argument>
-          <argument key="pt" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.pt.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.pt.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.pt.xlf</argument>
-          </argument>
-          <argument key="pt_BR" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.pt_BR.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.pt_BR.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.pt_BR.xlf</argument>
-          </argument>
-          <argument key="ro" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.ro.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.ro.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.ro.xlf</argument>
-          </argument>
-          <argument key="ru" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.ru.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.ru.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.ru.xlf</argument>
-          </argument>
-          <argument key="sk" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sk.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sk.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sk.xlf</argument>
-          </argument>
-          <argument key="sl" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sl.xlf</argument>
-          </argument>
-          <argument key="sq" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sq.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sq.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sq.xlf</argument>
-          </argument>
-          <argument key="sr_Cyrl" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sr_Cyrl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sr_Cyrl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sr_Cyrl.xlf</argument>
-          </argument>
-          <argument key="sr_Latn" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sr_Latn.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sr_Latn.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sr_Latn.xlf</argument>
-          </argument>
-          <argument key="sv" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.sv.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.sv.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.sv.xlf</argument>
-          </argument>
-          <argument key="th" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.th.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.th.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.th.xlf</argument>
-          </argument>
-          <argument key="tl" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.tl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.tl.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.tl.xlf</argument>
-          </argument>
-          <argument key="tr" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.tr.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.tr.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.tr.xlf</argument>
-          </argument>
-          <argument key="uk" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.uk.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.uk.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.uk.xlf</argument>
-          </argument>
-          <argument key="vi" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.vi.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.vi.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.vi.xlf</argument>
-          </argument>
-          <argument key="zh_CN" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.zh_CN.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.zh_CN.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.zh_CN.xlf</argument>
-          </argument>
-          <argument key="zh_TW" type="collection">
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/validator/Resources/translations/validators.zh_TW.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/form/Resources/translations/validators.zh_TW.xlf</argument>
-            <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-core/Resources/translations/security.zh_TW.xlf</argument>
           </argument>
         </argument>
         <argument key="scanned_directories" type="collection">
@@ -1863,14 +1863,14 @@
           <argument>/Applications/MAMP/htdocs/lineup/src/Resources/DoctrineMigrationsBundle/translations</argument>
           <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/security-bundle/translations</argument>
           <argument>/Applications/MAMP/htdocs/lineup/src/Resources/SecurityBundle/translations</argument>
-          <argument>/Applications/MAMP/htdocs/lineup/vendor/twig/extra-bundle/src/translations</argument>
+          <argument>/Applications/MAMP/htdocs/lineup/vendor/twig/extra-bundle/translations</argument>
           <argument>/Applications/MAMP/htdocs/lineup/src/Resources/TwigExtraBundle/translations</argument>
-          <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/web-server-bundle/translations</argument>
-          <argument>/Applications/MAMP/htdocs/lineup/src/Resources/WebServerBundle/translations</argument>
           <argument>/Applications/MAMP/htdocs/lineup/vendor/doctrine/doctrine-fixtures-bundle/translations</argument>
           <argument>/Applications/MAMP/htdocs/lineup/src/Resources/DoctrineFixturesBundle/translations</argument>
           <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/webpack-encore-bundle/src/translations</argument>
           <argument>/Applications/MAMP/htdocs/lineup/src/Resources/WebpackEncoreBundle/translations</argument>
+          <argument>/Applications/MAMP/htdocs/lineup/vendor/symfony/web-server-bundle/translations</argument>
+          <argument>/Applications/MAMP/htdocs/lineup/src/Resources/WebServerBundle/translations</argument>
           <argument>/Applications/MAMP/htdocs/lineup/src/Resources/translations</argument>
         </argument>
         <argument key="cache_vary" type="collection">
@@ -1899,14 +1899,14 @@
             <argument>src/Resources/DoctrineMigrationsBundle/translations</argument>
             <argument>vendor/symfony/security-bundle/translations</argument>
             <argument>src/Resources/SecurityBundle/translations</argument>
-            <argument>vendor/twig/extra-bundle/src/translations</argument>
+            <argument>vendor/twig/extra-bundle/translations</argument>
             <argument>src/Resources/TwigExtraBundle/translations</argument>
-            <argument>vendor/symfony/web-server-bundle/translations</argument>
-            <argument>src/Resources/WebServerBundle/translations</argument>
             <argument>vendor/doctrine/doctrine-fixtures-bundle/translations</argument>
             <argument>src/Resources/DoctrineFixturesBundle/translations</argument>
             <argument>vendor/symfony/webpack-encore-bundle/src/translations</argument>
             <argument>src/Resources/WebpackEncoreBundle/translations</argument>
+            <argument>vendor/symfony/web-server-bundle/translations</argument>
+            <argument>src/Resources/WebServerBundle/translations</argument>
             <argument>src/Resources/translations</argument>
           </argument>
         </argument>
@@ -3307,6 +3307,12 @@
           <argument>suggestFunction</argument>
         </argument>
       </call>
+      <call method="registerUndefinedTokenParserCallback">
+        <argument type="collection">
+          <argument type="service" id="twig.missing_extension_suggestor"/>
+          <argument>suggestTag</argument>
+        </argument>
+      </call>
       <configurator service="twig.configurator.environment" method="configure"/>
     </service>
     <service id="twig.app_variable" class="Symfony\Bridge\Twig\AppVariable" public="false">
@@ -3850,6 +3856,7 @@
     </service>
     <service id="maker.maker.make_functional_test" class="Symfony\Bundle\MakerBundle\Maker\MakeFunctionalTest" public="false">
       <tag name="maker.command"/>
+      <deprecated>The "%service_id%" service is deprecated, use "maker.maker.make_test" instead.</deprecated>
     </service>
     <service id="maker.maker.make_message" class="Symfony\Bundle\MakerBundle\Maker\MakeMessage" public="false">
       <tag name="maker.command"/>
@@ -3884,8 +3891,12 @@
     <service id="maker.maker.make_twig_extension" class="Symfony\Bundle\MakerBundle\Maker\MakeTwigExtension" public="false">
       <tag name="maker.command"/>
     </service>
+    <service id="maker.maker.make_test" class="Symfony\Bundle\MakerBundle\Maker\MakeTest" public="false">
+      <tag name="maker.command"/>
+    </service>
     <service id="maker.maker.make_unit_test" class="Symfony\Bundle\MakerBundle\Maker\MakeUnitTest" public="false">
       <tag name="maker.command"/>
+      <deprecated>The "%service_id%" service is deprecated, use "maker.maker.make_test" instead.</deprecated>
     </service>
     <service id="maker.maker.make_validator" class="Symfony\Bundle\MakerBundle\Maker\MakeValidator" public="false">
       <tag name="maker.command"/>
@@ -3898,7 +3909,6 @@
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.user_class_builder"/>
       <argument type="service" id="maker.security_config_updater"/>
-      <argument type="service" id="maker.doctrine_helper"/>
       <argument type="service" id="maker.entity_class_generator"/>
     </service>
     <service id="maker.maker.make_migration" class="Symfony\Bundle\MakerBundle\Maker\MakeMigration" public="false">
@@ -3906,9 +3916,10 @@
       <argument>/Applications/MAMP/htdocs/lineup</argument>
     </service>
     <service id="doctrine.dbal.logger.chain" class="Doctrine\DBAL\Logging\LoggerChain">
-      <call method="addLogger">
+      <argument type="collection">
+        <argument type="service" id="doctrine.dbal.logger"/>
         <argument type="service" id="doctrine.dbal.logger.profiling.default"/>
-      </call>
+      </argument>
     </service>
     <service id="doctrine.dbal.logger.profiling" class="Doctrine\DBAL\Logging\DebugStack" public="false" abstract="true"/>
     <service id="doctrine.dbal.logger.backtrace" class="Doctrine\Bundle\DoctrineBundle\Dbal\Logging\BacktraceLogger" public="false" abstract="true"/>
@@ -3967,14 +3978,14 @@
     </service>
     <service id="doctrine.query_sql_command" class="Doctrine\Bundle\DoctrineBundle\Command\Proxy\RunSqlDoctrineCommand">
       <tag name="console.command" command="doctrine:query:sql"/>
-      <argument>null</argument>
+      <argument type="service" id="Doctrine\Bundle\DoctrineBundle\Dbal\ManagerRegistryAwareConnectionProvider" on-invalid="null"/>
       <call method="setName">
         <argument>doctrine:query:sql</argument>
       </call>
     </service>
     <service id="Doctrine\DBAL\Tools\Console\Command\RunSqlCommand" class="Doctrine\DBAL\Tools\Console\Command\RunSqlCommand">
       <tag name="console.command" command="dbal:run-sql"/>
-      <argument>null</argument>
+      <argument type="service" id="Doctrine\Bundle\DoctrineBundle\Dbal\ManagerRegistryAwareConnectionProvider" on-invalid="null"/>
       <call method="setName">
         <argument>dbal:run-sql</argument>
       </call>
@@ -3992,9 +4003,10 @@
     </service>
     <service id="doctrine.dbal.logger.profiling.default" class="Doctrine\DBAL\Logging\DebugStack" public="false"/>
     <service id="doctrine.dbal.logger.chain.default" class="Doctrine\DBAL\Logging\LoggerChain">
-      <call method="addLogger">
+      <argument type="collection">
+        <argument type="service" id="doctrine.dbal.logger"/>
         <argument type="service" id="doctrine.dbal.logger.profiling.default"/>
-      </call>
+      </argument>
     </service>
     <service id="doctrine.dbal.default_connection.event_manager" class="Symfony\Bridge\Doctrine\ContainerAwareEventManager" public="false">
       <argument type="service" id=".service_locator.bpvU51K"/>
@@ -4020,6 +4032,18 @@
       <argument type="service" id="doctrine.dbal.default_connection.event_manager"/>
       <argument type="collection"/>
       <factory service="doctrine.dbal.connection_factory" method="createConnection"/>
+    </service>
+    <service id="Doctrine\Bundle\DoctrineBundle\Dbal\ManagerRegistryAwareConnectionProvider" class="Doctrine\Bundle\DoctrineBundle\Dbal\ManagerRegistryAwareConnectionProvider">
+      <argument type="service">
+        <service class="Doctrine\Bundle\DoctrineBundle\Registry" public="true">
+          <tag name="kernel.reset" method="reset"/>
+          <argument type="service" id="service_container"/>
+          <argument>%doctrine.connections%</argument>
+          <argument>%doctrine.entity_managers%</argument>
+          <argument>default</argument>
+          <argument>default</argument>
+        </service>
+      </argument>
     </service>
     <service id=".1_ServiceLocator~8ZEAple" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <argument type="collection"/>
@@ -5152,39 +5176,7 @@
         <argument>security:encode-password</argument>
       </call>
     </service>
-    <service id="twig.missing_extension_suggestor" class="Twig\Extra\TwigExtraBundle\MissingExtensionSuggestor" public="false"/>
-    <service id="web_server.command.server_run" class="Symfony\Bundle\WebServerBundle\Command\ServerRunCommand" public="false">
-      <tag name="console.command" command="server:run"/>
-      <argument>/Applications/MAMP/htdocs/lineup/public</argument>
-      <argument>dev</argument>
-      <argument>/Applications/MAMP/htdocs/lineup</argument>
-      <call method="setName">
-        <argument>server:run</argument>
-      </call>
-    </service>
-    <service id="web_server.command.server_start" class="Symfony\Bundle\WebServerBundle\Command\ServerStartCommand" public="false">
-      <tag name="console.command" command="server:start"/>
-      <argument>/Applications/MAMP/htdocs/lineup/public</argument>
-      <argument>dev</argument>
-      <argument>/Applications/MAMP/htdocs/lineup</argument>
-      <call method="setName">
-        <argument>server:start</argument>
-      </call>
-    </service>
-    <service id="web_server.command.server_stop" class="Symfony\Bundle\WebServerBundle\Command\ServerStopCommand" public="false">
-      <tag name="console.command" command="server:stop"/>
-      <argument>/Applications/MAMP/htdocs/lineup</argument>
-      <call method="setName">
-        <argument>server:stop</argument>
-      </call>
-    </service>
-    <service id="web_server.command.server_status" class="Symfony\Bundle\WebServerBundle\Command\ServerStatusCommand" public="false">
-      <tag name="console.command" command="server:status"/>
-      <argument>/Applications/MAMP/htdocs/lineup</argument>
-      <call method="setName">
-        <argument>server:status</argument>
-      </call>
-    </service>
+    <service id="twig.missing_extension_suggestor" class="Twig\Extra\TwigExtraBundle\MissingExtensionSuggestor"/>
     <service id="doctrine.fixtures_load_command" class="Doctrine\Bundle\FixturesBundle\Command\LoadDataFixturesDoctrineCommand">
       <tag name="console.command" command="doctrine:fixtures:load"/>
       <argument type="service" id="doctrine.fixtures.loader"/>
@@ -5276,6 +5268,38 @@
       <argument type="collection">
         <argument key="_default" type="service" id="webpack_encore.entrypoint_lookup[_default]"/>
       </argument>
+    </service>
+    <service id="web_server.command.server_run" class="Symfony\Bundle\WebServerBundle\Command\ServerRunCommand" public="false">
+      <tag name="console.command" command="server:run"/>
+      <argument>/Applications/MAMP/htdocs/lineup/public</argument>
+      <argument>dev</argument>
+      <argument>/Applications/MAMP/htdocs/lineup/var/cache</argument>
+      <call method="setName">
+        <argument>server:run</argument>
+      </call>
+    </service>
+    <service id="web_server.command.server_start" class="Symfony\Bundle\WebServerBundle\Command\ServerStartCommand" public="false">
+      <tag name="console.command" command="server:start"/>
+      <argument>/Applications/MAMP/htdocs/lineup/public</argument>
+      <argument>dev</argument>
+      <argument>/Applications/MAMP/htdocs/lineup/var/cache</argument>
+      <call method="setName">
+        <argument>server:start</argument>
+      </call>
+    </service>
+    <service id="web_server.command.server_stop" class="Symfony\Bundle\WebServerBundle\Command\ServerStopCommand" public="false">
+      <tag name="console.command" command="server:stop"/>
+      <argument>/Applications/MAMP/htdocs/lineup/var/cache</argument>
+      <call method="setName">
+        <argument>server:stop</argument>
+      </call>
+    </service>
+    <service id="web_server.command.server_status" class="Symfony\Bundle\WebServerBundle\Command\ServerStatusCommand" public="false">
+      <tag name="console.command" command="server:status"/>
+      <argument>/Applications/MAMP/htdocs/lineup/var/cache</argument>
+      <call method="setName">
+        <argument>server:status</argument>
+      </call>
     </service>
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\AdController" class="App\Controller\AdController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\AdController" class="App\Controller\AdController" autowire="true" abstract="true"/>
@@ -5375,6 +5399,9 @@
       <argument type="service" id="maker.maker.make_authenticator"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a Guard authenticator of different flavors</argument>
+      </call>
       <call method="setName">
         <argument>make:auth</argument>
       </call>
@@ -5384,6 +5411,9 @@
       <argument type="service" id="maker.maker.make_command"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new console command class</argument>
+      </call>
       <call method="setName">
         <argument>make:command</argument>
       </call>
@@ -5393,6 +5423,9 @@
       <argument type="service" id="maker.maker.make_controller"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new controller class</argument>
+      </call>
       <call method="setName">
         <argument>make:controller</argument>
       </call>
@@ -5402,6 +5435,9 @@
       <argument type="service" id="maker.maker.make_crud"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates CRUD for Doctrine entity class</argument>
+      </call>
       <call method="setName">
         <argument>make:crud</argument>
       </call>
@@ -5411,6 +5447,9 @@
       <argument type="service" id="maker.maker.make_docker_database"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Adds a database container to your docker-compose.yaml file</argument>
+      </call>
       <call method="setName">
         <argument>make:docker:database</argument>
       </call>
@@ -5420,6 +5459,9 @@
       <argument type="service" id="maker.maker.make_entity"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates or updates a Doctrine entity class, and optionally an API Platform resource</argument>
+      </call>
       <call method="setName">
         <argument>make:entity</argument>
       </call>
@@ -5429,6 +5471,9 @@
       <argument type="service" id="maker.maker.make_fixtures"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new class to load Doctrine fixtures</argument>
+      </call>
       <call method="setName">
         <argument>make:fixtures</argument>
       </call>
@@ -5438,17 +5483,11 @@
       <argument type="service" id="maker.maker.make_form"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new form class</argument>
+      </call>
       <call method="setName">
         <argument>make:form</argument>
-      </call>
-    </service>
-    <service id="maker.auto_command.make_functional_test" class="Symfony\Bundle\MakerBundle\Command\MakerCommand" public="false">
-      <tag name="console.command" command="make:functional-test"/>
-      <argument type="service" id="maker.maker.make_functional_test"/>
-      <argument type="service" id="maker.file_manager"/>
-      <argument type="service" id="maker.generator"/>
-      <call method="setName">
-        <argument>make:functional-test</argument>
       </call>
     </service>
     <service id="maker.auto_command.make_message" class="Symfony\Bundle\MakerBundle\Command\MakerCommand" public="false">
@@ -5456,6 +5495,9 @@
       <argument type="service" id="maker.maker.make_message"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new message and handler</argument>
+      </call>
       <call method="setName">
         <argument>make:message</argument>
       </call>
@@ -5465,6 +5507,9 @@
       <argument type="service" id="maker.maker.make_messenger_middleware"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new messenger middleware</argument>
+      </call>
       <call method="setName">
         <argument>make:messenger-middleware</argument>
       </call>
@@ -5474,6 +5519,9 @@
       <argument type="service" id="maker.maker.make_registration_form"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new registration form system</argument>
+      </call>
       <call method="setName">
         <argument>make:registration-form</argument>
       </call>
@@ -5483,6 +5531,9 @@
       <argument type="service" id="maker.maker.make_reset_password"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Create controller, entity, and repositories for use with symfonycasts/reset-password-bundle</argument>
+      </call>
       <call method="setName">
         <argument>make:reset-password</argument>
       </call>
@@ -5492,6 +5543,9 @@
       <argument type="service" id="maker.maker.make_serializer_encoder"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new serializer encoder class</argument>
+      </call>
       <call method="setName">
         <argument>make:serializer:encoder</argument>
       </call>
@@ -5501,6 +5555,9 @@
       <argument type="service" id="maker.maker.make_serializer_normalizer"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new serializer normalizer class</argument>
+      </call>
       <call method="setName">
         <argument>make:serializer:normalizer</argument>
       </call>
@@ -5510,6 +5567,9 @@
       <argument type="service" id="maker.maker.make_subscriber"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new event subscriber class</argument>
+      </call>
       <call method="setName">
         <argument>make:subscriber</argument>
       </call>
@@ -5519,17 +5579,31 @@
       <argument type="service" id="maker.maker.make_twig_extension"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new Twig extension class</argument>
+      </call>
       <call method="setName">
         <argument>make:twig-extension</argument>
       </call>
     </service>
-    <service id="maker.auto_command.make_unit_test" class="Symfony\Bundle\MakerBundle\Command\MakerCommand" public="false">
-      <tag name="console.command" command="make:unit-test"/>
-      <argument type="service" id="maker.maker.make_unit_test"/>
+    <service id="maker.auto_command.make_test" class="Symfony\Bundle\MakerBundle\Command\MakerCommand" public="false">
+      <tag name="console.command" command="make:test"/>
+      <tag name="console.command" command="make:unit-test" description="Deprecated alias of &quot;make:test&quot;"/>
+      <tag name="console.command" command="make:functional-test" description="Deprecated alias of &quot;make:test&quot;"/>
+      <argument type="service" id="maker.maker.make_test"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new test class</argument>
+      </call>
       <call method="setName">
-        <argument>make:unit-test</argument>
+        <argument>make:test</argument>
+      </call>
+      <call method="setAliases">
+        <argument type="collection">
+          <argument>make:unit-test</argument>
+          <argument>make:functional-test</argument>
+        </argument>
       </call>
     </service>
     <service id="maker.auto_command.make_validator" class="Symfony\Bundle\MakerBundle\Command\MakerCommand" public="false">
@@ -5537,6 +5611,9 @@
       <argument type="service" id="maker.maker.make_validator"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new validator and constraint class</argument>
+      </call>
       <call method="setName">
         <argument>make:validator</argument>
       </call>
@@ -5546,6 +5623,9 @@
       <argument type="service" id="maker.maker.make_voter"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new security voter class</argument>
+      </call>
       <call method="setName">
         <argument>make:voter</argument>
       </call>
@@ -5555,6 +5635,9 @@
       <argument type="service" id="maker.maker.make_user"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new security user class</argument>
+      </call>
       <call method="setName">
         <argument>make:user</argument>
       </call>
@@ -5564,6 +5647,9 @@
       <argument type="service" id="maker.maker.make_migration"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.generator"/>
+      <call method="setDescription">
+        <argument>Creates a new migration based on database changes</argument>
+      </call>
       <call method="setName">
         <argument>make:migration</argument>
       </call>
@@ -6221,7 +6307,7 @@
     <service id=".errored..service_locator.pUeeged.App\Entity\Comment" class="App\Entity\Comment"/>
     <service id=".errored..service_locator.tIQ5Q0N.App\Entity\User" class="App\Entity\User"/>
     <service id="console.command_loader" class="Symfony\Component\Console\CommandLoader\ContainerCommandLoader" public="true">
-      <argument type="service" id=".service_locator.Hm6opjg"/>
+      <argument type="service" id=".service_locator.p4sE2jN"/>
       <argument type="collection">
         <argument key="about">console.command.about</argument>
         <argument key="assets:install">console.command.assets_install</argument>
@@ -6285,11 +6371,11 @@
         <argument key="doctrine:migrations:up-to-date">doctrine_migrations.up_to_date_command</argument>
         <argument key="doctrine:migrations:version">doctrine_migrations.version_command</argument>
         <argument key="security:encode-password">security.command.user_password_encoder</argument>
+        <argument key="doctrine:fixtures:load">doctrine.fixtures_load_command</argument>
         <argument key="server:run">web_server.command.server_run</argument>
         <argument key="server:start">web_server.command.server_start</argument>
         <argument key="server:stop">web_server.command.server_stop</argument>
         <argument key="server:status">web_server.command.server_status</argument>
-        <argument key="doctrine:fixtures:load">doctrine.fixtures_load_command</argument>
         <argument key="make:auth">maker.auto_command.make_auth</argument>
         <argument key="make:command">maker.auto_command.make_command</argument>
         <argument key="make:controller">maker.auto_command.make_controller</argument>
@@ -6298,7 +6384,6 @@
         <argument key="make:entity">maker.auto_command.make_entity</argument>
         <argument key="make:fixtures">maker.auto_command.make_fixtures</argument>
         <argument key="make:form">maker.auto_command.make_form</argument>
-        <argument key="make:functional-test">maker.auto_command.make_functional_test</argument>
         <argument key="make:message">maker.auto_command.make_message</argument>
         <argument key="make:messenger-middleware">maker.auto_command.make_messenger_middleware</argument>
         <argument key="make:registration-form">maker.auto_command.make_registration_form</argument>
@@ -6307,14 +6392,16 @@
         <argument key="make:serializer:normalizer">maker.auto_command.make_serializer_normalizer</argument>
         <argument key="make:subscriber">maker.auto_command.make_subscriber</argument>
         <argument key="make:twig-extension">maker.auto_command.make_twig_extension</argument>
-        <argument key="make:unit-test">maker.auto_command.make_unit_test</argument>
+        <argument key="make:test">maker.auto_command.make_test</argument>
+        <argument key="make:unit-test">maker.auto_command.make_test</argument>
+        <argument key="make:functional-test">maker.auto_command.make_test</argument>
         <argument key="make:validator">maker.auto_command.make_validator</argument>
         <argument key="make:voter">maker.auto_command.make_voter</argument>
         <argument key="make:user">maker.auto_command.make_user</argument>
         <argument key="make:migration">maker.auto_command.make_migration</argument>
       </argument>
     </service>
-    <service id=".service_locator.Hm6opjg" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id=".service_locator.p4sE2jN" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="Doctrine\DBAL\Tools\Console\Command\RunSqlCommand" type="service" id="Doctrine\DBAL\Tools\Console\Command\RunSqlCommand"/>
@@ -6383,7 +6470,6 @@
         <argument key="maker.auto_command.make_entity" type="service" id="maker.auto_command.make_entity"/>
         <argument key="maker.auto_command.make_fixtures" type="service" id="maker.auto_command.make_fixtures"/>
         <argument key="maker.auto_command.make_form" type="service" id="maker.auto_command.make_form"/>
-        <argument key="maker.auto_command.make_functional_test" type="service" id="maker.auto_command.make_functional_test"/>
         <argument key="maker.auto_command.make_message" type="service" id="maker.auto_command.make_message"/>
         <argument key="maker.auto_command.make_messenger_middleware" type="service" id="maker.auto_command.make_messenger_middleware"/>
         <argument key="maker.auto_command.make_migration" type="service" id="maker.auto_command.make_migration"/>
@@ -6392,8 +6478,8 @@
         <argument key="maker.auto_command.make_serializer_encoder" type="service" id="maker.auto_command.make_serializer_encoder"/>
         <argument key="maker.auto_command.make_serializer_normalizer" type="service" id="maker.auto_command.make_serializer_normalizer"/>
         <argument key="maker.auto_command.make_subscriber" type="service" id="maker.auto_command.make_subscriber"/>
+        <argument key="maker.auto_command.make_test" type="service" id="maker.auto_command.make_test"/>
         <argument key="maker.auto_command.make_twig_extension" type="service" id="maker.auto_command.make_twig_extension"/>
-        <argument key="maker.auto_command.make_unit_test" type="service" id="maker.auto_command.make_unit_test"/>
         <argument key="maker.auto_command.make_user" type="service" id="maker.auto_command.make_user"/>
         <argument key="maker.auto_command.make_validator" type="service" id="maker.auto_command.make_validator"/>
         <argument key="maker.auto_command.make_voter" type="service" id="maker.auto_command.make_voter"/>
