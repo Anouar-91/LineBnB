@@ -1,7 +1,6 @@
 
 ###> symfony/framework-bundle ###
-/.env
-/public/bundles
+
 /vendor/
 
 ###> symfony/webpack-encore-bundle ###
