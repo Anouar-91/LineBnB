@@ -66,10 +66,10 @@ class User extends \App\Entity\User implements \Doctrine\ORM\Proxy\Proxy
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', '' . "\0" . 'App\\Entity\\User' . "\0" . 'id', '' . "\0" . 'App\\Entity\\User' . "\0" . 'firstName', '' . "\0" . 'App\\Entity\\User' . "\0" . 'lastName', '' . "\0" . 'App\\Entity\\User' . "\0" . 'email', '' . "\0" . 'App\\Entity\\User' . "\0" . 'picture', '' . "\0" . 'App\\Entity\\User' . "\0" . 'hash', 'passwordConfirm', '' . "\0" . 'App\\Entity\\User' . "\0" . 'introduction', '' . "\0" . 'App\\Entity\\User' . "\0" . 'description', '' . "\0" . 'App\\Entity\\User' . "\0" . 'slug', '' . "\0" . 'App\\Entity\\User' . "\0" . 'ads', '' . "\0" . 'App\\Entity\\User' . "\0" . 'userRoles'];
+            return ['__isInitialized__', '' . "\0" . 'App\\Entity\\User' . "\0" . 'id', '' . "\0" . 'App\\Entity\\User' . "\0" . 'firstName', '' . "\0" . 'App\\Entity\\User' . "\0" . 'lastName', '' . "\0" . 'App\\Entity\\User' . "\0" . 'email', '' . "\0" . 'App\\Entity\\User' . "\0" . 'picture', '' . "\0" . 'App\\Entity\\User' . "\0" . 'hash', 'passwordConfirm', '' . "\0" . 'App\\Entity\\User' . "\0" . 'introduction', '' . "\0" . 'App\\Entity\\User' . "\0" . 'description', '' . "\0" . 'App\\Entity\\User' . "\0" . 'slug', '' . "\0" . 'App\\Entity\\User' . "\0" . 'ads', '' . "\0" . 'App\\Entity\\User' . "\0" . 'userRoles', '' . "\0" . 'App\\Entity\\User' . "\0" . 'bookings', '' . "\0" . 'App\\Entity\\User' . "\0" . 'comments'];
         }
 
-        return ['__isInitialized__', '' . "\0" . 'App\\Entity\\User' . "\0" . 'id', '' . "\0" . 'App\\Entity\\User' . "\0" . 'firstName', '' . "\0" . 'App\\Entity\\User' . "\0" . 'lastName', '' . "\0" . 'App\\Entity\\User' . "\0" . 'email', '' . "\0" . 'App\\Entity\\User' . "\0" . 'picture', '' . "\0" . 'App\\Entity\\User' . "\0" . 'hash', 'passwordConfirm', '' . "\0" . 'App\\Entity\\User' . "\0" . 'introduction', '' . "\0" . 'App\\Entity\\User' . "\0" . 'description', '' . "\0" . 'App\\Entity\\User' . "\0" . 'slug', '' . "\0" . 'App\\Entity\\User' . "\0" . 'ads', '' . "\0" . 'App\\Entity\\User' . "\0" . 'userRoles'];
+        return ['__isInitialized__', '' . "\0" . 'App\\Entity\\User' . "\0" . 'id', '' . "\0" . 'App\\Entity\\User' . "\0" . 'firstName', '' . "\0" . 'App\\Entity\\User' . "\0" . 'lastName', '' . "\0" . 'App\\Entity\\User' . "\0" . 'email', '' . "\0" . 'App\\Entity\\User' . "\0" . 'picture', '' . "\0" . 'App\\Entity\\User' . "\0" . 'hash', 'passwordConfirm', '' . "\0" . 'App\\Entity\\User' . "\0" . 'introduction', '' . "\0" . 'App\\Entity\\User' . "\0" . 'description', '' . "\0" . 'App\\Entity\\User' . "\0" . 'slug', '' . "\0" . 'App\\Entity\\User' . "\0" . 'ads', '' . "\0" . 'App\\Entity\\User' . "\0" . 'userRoles', '' . "\0" . 'App\\Entity\\User' . "\0" . 'bookings', '' . "\0" . 'App\\Entity\\User' . "\0" . 'comments'];
     }
 
     /**
@@ -176,6 +176,28 @@ class User extends \App\Entity\User implements \Doctrine\ORM\Proxy\Proxy
     }
 
     
+    /**
+     * {@inheritDoc}
+     */
+    public function countAd()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'countAd', []);
+
+        return parent::countAd();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function countBooking()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'countBooking', []);
+
+        return parent::countBooking();
+    }
+
     /**
      * {@inheritDoc}
      */
@@ -508,6 +530,72 @@ class User extends \App\Entity\User implements \Doctrine\ORM\Proxy\Proxy
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'removeUserRole', [$userRole]);
 
         return parent::removeUserRole($userRole);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getBookings(): \Doctrine\Common\Collections\Collection
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getBookings', []);
+
+        return parent::getBookings();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addBooking(\App\Entity\Booking $booking): \App\Entity\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addBooking', [$booking]);
+
+        return parent::addBooking($booking);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function removeBooking(\App\Entity\Booking $booking): \App\Entity\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'removeBooking', [$booking]);
+
+        return parent::removeBooking($booking);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getComments(): \Doctrine\Common\Collections\Collection
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getComments', []);
+
+        return parent::getComments();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addComment(\App\Entity\Comment $comment): \App\Entity\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addComment', [$comment]);
+
+        return parent::addComment($comment);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function removeComment(\App\Entity\Comment $comment): \App\Entity\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'removeComment', [$comment]);
+
+        return parent::removeComment($comment);
     }
 
 }
