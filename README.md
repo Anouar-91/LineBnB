@@ -1,8 +1,6 @@
 # LineBnB
 Projet que j'ai réalisé de A à Z dans le cadre de mon auto-formation sur SYMFONY.
 
-Projet que j'ai réalisé de A à Z dans le cadre de mon auto-formation sur SYMFONY.
-
 Dans le cadre de ce projet, j'ai été amené à utiliser et étudier les notions suivantes : 
 
 -	La structure d'un projet SYMFONY
